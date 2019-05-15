@@ -1,0 +1,301 @@
+      <!doctype html>
+      <html lang="en">
+        <head>
+          <!-- Required meta tags -->
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+          <!-- Bootstrap CSS -->
+
+          <link rel="stylesheet" href="style.css">
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css"/>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+
+          <!-- Icon-->
+
+          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+          <title>Micro Rio</title>
+        </head>
+        <body>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header"> <!-- Titulo do modal -->
+              <h5 class="modal-title" id="exampleModalLabel">Entre na sua Conta</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body"> <!-- CORPO DO MODAL -->
+              <form>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Informe seu E-mail</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">Informe seu e-mail de cadastro.</small>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Senha</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  </div>
+                  <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Lembrar-me da senha</label>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Logar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- NavBAR -->
+         <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top box-shadow">
+            <div class="container">
+            <div class="logo">
+             <a href="index.html">
+               <img src="img/logo-teste-nav.png" class="img-fluid">
+             </a>
+             </div>
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto menu-center lead">
+              <li class="nav-item">
+                <a class="nav-link meunav navcolor cool-link" href="empresa.html">Empresa <span class="sr-only">(current)</span></a>
+              </li>
+             <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle meunav navcolor" href="index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Produtos <span class="sr-only">(current)</span></a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                 <a class="dropdown-item meunav navcolor cool-link" href="v-de-esfera-tripartida.html">Válvula Esfera Tripartida</a>
+                 <a class="dropdown-item meunav navcolor cool-link" href="v-de-esfera-tripartida-flangeada.html">Válvula Esfera Tripartida Flageada</a>
+                 <a class="dropdown-item meunav navcolor cool-link" href="v-de-esfera-tripartida-fl300.html">Válvula Esfera Tripartida Flageada 300.LBS</a>
+                 <a class="dropdown-item meunav navcolor cool-link" href="v-de-esfera-bipartida.html">Válvula de Esfera Bipartida</a>
+                 <a class="dropdown-item meunav navcolor cool-link" href="v-borboleta.html">Válvula Borboleta</a>
+                 <a class="dropdown-item meunav navcolor cool-link" href="v-borboleta-revestida-ptre.html">Válvula Borboleta Revestida</a>
+                 <a class="dropdown-item meunav navcolor cool-link" href="v-retencao-dupla-portinhola.html">Válvula de Retenção</a>
+                 <a class="dropdown-item meunav navcolor cool-link" href="flange-sobreposto.html">Flange Sobreposto</a>
+                 <a class="dropdown-item meunav navcolor cool-link" href="vedacao.html">Vedaçāo</a>
+                </div>
+              </li>
+            <li class="nav-item">
+                <a class="active nav-link meunav navcolor cool-link" href="revendedores.html">Revendedores <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link meunav navcolor cool-link" href="noticias.html">Notícias <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link meunav navcolor cool-link" href="contato.html">Contatos <span class="sr-only">(current)</span></a>
+              </li>
+
+            </ul>
+          </div>
+          </div>
+           </nav>
+
+
+
+         <div class="margin-contato">
+         <section class="bg-azul text-white mt-4 py-3">
+          <div class="row">
+           <div class="container">
+             <h1 class="display-4 caixa-alta text-center font-azul">Contato</h1>
+           </div>
+          </div>       
+         </section>
+         </div>
+
+
+           <section class="container my-3">
+          <div class="row">
+
+            <div class="col-md-8">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14765.713105080902!2d-46.973461!3d-22.299637!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x869a3349d7fca5f4!2zTWljcm8gUmlvIC0gRmFicmljYcOnw6NvIGUgQ29tZXJjaWFsaXphw6fDo28gZGUgVsOhbHZ1bGFz!5e0!3m2!1spt-BR!2sbr!4v1556209941188!5m2!1spt-BR!2sbr" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+                <h2 class="azul">Matriz</h2>
+
+                <h5 class="verde">Rua Marcio Carlin, 463 - Pq. Industrial II | Mogi Guaçu | SP | CEP 13849-226</h5>
+
+                <p class="size cinza2 ">Fone: (19) 3851.7900</p>
+
+                <a class="cinza2" href="#"><p>Email: atendimento@microrio.com.br</p></a>
+
+
+
+
+                <h2 class="azul">Centro de Distribuição em São Paulo</h2>
+
+                <h5 class="verde">Rua Diamantina, 920 - Vila Maria | SP</h5>
+
+                <p class="cinza2">Fone: (19) 3851.7900</p>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1829.1409259016134!2d-46.587731!3d-23.522363!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5f31e4807a2d%3A0x2824b5d1252a5f3a!2sRua+Diamantina%2C+920+-+Vila+Maria%2C+S%C3%A3o+Paulo+-+SP%2C+02117-011!5e0!3m2!1spt-BR!2sbr!4v1556211180348!5m2!1spt-BR!2sbr" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+            </div>
+            <div class="col-md-4 col-12 mb-2">
+              <form class="bg-light rounded p-4 box-shadow teste-espaco" action="https://formspree.io/marcelo@microrio.com.br" method="post">
+                <div class="form-group">
+                  <label for="clienteNome">Nome</label>
+                  <input type="text" class="form-control" name="Nome">
+                </div>
+                <div class="form-group">
+                    <label for="clienteNome">Empresa</label>
+                  <input type="text" class="form-control" name="Empresa">
+                </div>
+                <div class="form-group">
+                  <label for="clienteNome">CNPJ</label>
+                  <input type="text" class="form-control" name="CNPJ">
+                </div>
+                <div class="form-check pb-3">
+                  <div>
+                  <input type="checkbox" class="form-check-input" name="V-E-Tripartida">
+                  <label class="form-check-label" for="exampleCheck1">Válvula Esfera Tripartida</label>
+                  </div>
+                  <div>
+                  <input type="checkbox" class="form-check-input" name="V-E-Bipartida">
+                  <label class="form-check-label" for="exampleCheck2">Válvula Esfera Bipartida </label>
+                  </div>
+                  <div>
+                  <input type="checkbox" class="form-check-input" name="V-Borboleta">
+                  <label class="form-check-label" for="exampleCheck3">Válvula Borboleta </label>
+                  </div>
+                  <div>
+                  <input type="checkbox" class="form-check-input" name="V-Retencao">
+                  <label class="form-check-label" for="exampleCheck4">Válvula Retençāo </label>
+                  </div>
+                  <div>
+                  <input type="checkbox" class="form-check-input" name="flange">
+                  <label class="form-check-label" for="exampleCheck4">Flange</label>
+                  </div>
+
+                </div>
+                <div class="form-group">
+                  <label for="clienteEmail">Email</label>
+                  <input type="email" class="form-control" name="E-mail">
+                </div>
+                <div class="form-group">
+                  <label for="clienteMensagem">Mensagem</label>
+                  <textarea id="clienteMensagem" class="form-control" rows="4" name="text-area"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+              </form>
+
+            </div>
+
+          </div>
+         </section>
+
+
+          <!--Footer contatos -->
+
+           <section class="container-fluid bg-azul p-3 mt-2">
+             <div class="container">
+             <div class="row">
+
+               <div class="col-md-4">
+                <a href="#" class="d-flex align-items-center h5 text-white"><i class="fas fa-phone-square display-4 color-icon meuicon p-4"></i>Telefone:<br>+55 (19) 3851.7900</a> 
+               </div>
+
+                <div class="col-md-4"> 
+                   <a href="contato.html" class="d-flex align-items-center h5 text-white"><i class="fas fa-envelope-open-text display-4 color-icon meuicon p-4"></i>Fale Conosco:<br> vendas@microrio.com.br</a>
+                </div>
+
+                 <div class="col-md-4"> 
+                   <a href="contato.html" class="d-flex align-items-center h5 text-white"><i class="fas fa-map-marked display-4 color-icon meuicon p-4"></i>Rua Marcio Carlin, 463 <br>Mogi Guaçu</a>
+                </div>
+
+             </div>
+             </div>
+
+            </section>
+
+
+
+
+      <footer class="bg-verde ">
+            <div class="container ">
+               <div class="row">
+                    <div class="col-md-5 col-12 mt-5">
+                       <h4 class="text-white">A Micro Rio ®</h4>
+                     <p class="size pb-3 " id="unstyle" >
+
+                       A Micro Rio ® é fabricante de válvulas industriais do tipo esfera bipartida, tripartida, tripartida flangeada, borboleta e retenção dupla portinhola. Instalada em Mogi Guaçu, interior de São Paulo e centro de distribuição logístico na cidade de São Paulo.
+                     </p>
+
+                    </div>
+
+                   <div class="col-sm-3 col-12 d-flex align-items-center justify-content-center">
+                       <img class="d-flex align-items-center" src="img/logo-branco-teste.png">
+
+                      </div>
+                      <div class="col-md-4 col-12  py-4 d-flex align-items-center justify-content-center">
+                       <img class="" src="img/teste-certificado.png">
+                      </div>
+                      </div>
+                    </div>
+
+         </footer>
+         <section class="container-fluid bg-dark">
+         <div class="container">
+          <div class="row">
+
+               <!--Icons Redes Sociais -->
+              <div class="col-md-4 col-4">
+               <a href="https://www.facebook.com/microriovalvulas/" class="color-icon h1 fab fa-facebook pt-2 pr-2 meuicon"></a>
+               <a href="https://instagram.com/microriovalves" class="color-icon h1  pt-2 pr-2 meuicon"><i class="fab fa-instagram"></i></a>
+               <a href="https://www.linkedin.com/company/24425855/admin/" class="color-icon h1 fab fa-linkedin pt-2 pr-2 meuicon"></a>
+               <a href="https://twitter.com/Microriovalves" class="color-icon h1 pt-2 pr-2 meuicon"><i class="fab fa-twitter"></i></a> 
+               <a href="https://www.youtube.com/channel/UCVqsGUH68cRV05Y13uHcU0Q" class="color-icon h1 pt-2 pr-2 meuicon"><i class="fab fa-youtube"></i></a> 
+              </div>
+
+            <div class="col-md-8 col-8 d-flex align-items-center justify-content-end">
+              <ul class="nav">
+                <li class="nav-item ">
+                  <a class="nav-link active navcolor-footer" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navcolor-footer" href="empresa.html">Empresa</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navcolor-footer" href="index.html">Produtos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navcolor-footer" href="revendedores.html">Revendedores</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navcolor-footer" href="noticias.html">Notícias</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navcolor-footer" href="contato.html">Contatos</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          </div>
+
+         </section>
+
+
+          <!-- Optional JavaScript -->
+          <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+
+        <div id="fb-root">
+          <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v3.2"></script>
+          </div>
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+          <script type="text/javascript" src="app.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        </body>
+      </html>
